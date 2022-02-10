@@ -28,6 +28,11 @@ There is a huge difference between different states and the range is from 0 to 7
 
 And the test score reflects on the academic ability that a student is capable of. Thus, a student having a higher test score, student will likely to perform well in the college level. According to the graph, the correlation between the two is really high. It indicates that when a student has a higher SAT score, he will be likely to have a higher score in ACT as well. 
 
+![Race](/img/posts/college/his2.jpg "Race")
+
+In order to show the comparison more clear between four cohorts. State of Massachusetts and state of Rhode Islands are chosen to be on graph 6. Since these two states have relatively the highest completion rate in all groups comparing to other states. And it shows that <strong class="covid">alien</strong> and<strong class="covid"> white</strong> cohorts have the higher completion rate.
+
+
 
 
 
