@@ -53,10 +53,16 @@ img {
     margin: 0 -25%;
 }
 
-strong {
-    color: red;
+strong.covid{
+    color: rgba(247, 20, 20, 0.904);
 }
 
 strong.uber {
-    color: blue;
+    color: rgb(27, 27, 233);
+}
+strong.policy {
+    color: rgb(12, 156, 12);
+}
+strong.no {
+    color: rgba(255, 166, 0, 0.863);
 }
