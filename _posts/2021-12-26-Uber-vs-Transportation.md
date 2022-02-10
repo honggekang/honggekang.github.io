@@ -38,7 +38,7 @@ We used ridesharing and transit data from the Chicago Data Portal that was recor
 
 ![comparison](/img/posts/uber/ridersharing_vs_LOL _rail.png "comparison")
 
-From the graph, during late December, we see a large decrease in ridesharing and L rail rides. If ridesharing and the L rail are <strong class="covid">complements</strong>, we assume that most ridesharing pickups near an L rail station are for people getting on or off the L rail. For consumer privacy reasons, our dataset of ridesharing trips classified pickup and dropoff locations into a series of <strong class="covid">census tract points</strong>. We created a <strong class="uber">buffer of 0.005 degrees</strong> (approximately <strong class="covid">500 meters</strong>) around each L rail stop in Chicago and selected the census tract points that intersected with the buffer to distinguish which rides were picked up or dropped off near an L stop.
+From the graph, during late December, we see a large decrease in ridesharing and L rail rides. If ridesharing and the L rail are <strong class="covid">complements</strong>, we assume that most ridesharing pickups near an L rail station are for people getting on or off the L rail. For consumer privacy reasons, our dataset of ridesharing trips classified pickup and dropoff locations into a series of <strong class="covid">census tract points</strong>. We created a <strong class="covid">buffer of 0.005 degrees</strong> (approximately <strong class="covid">500 meters</strong>) around each L rail stop in Chicago and selected the census tract points that intersected with the buffer to distinguish which rides were picked up or dropped off near an L stop.
 
 ![zone](/img/posts/uber/pickup_dropoff.png "zone")
 
