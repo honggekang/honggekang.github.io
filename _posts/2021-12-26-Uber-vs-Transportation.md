@@ -5,11 +5,9 @@ subtitle: "Is Uber a complement or substitute service to public ‘L’ ridershi
 background: '/img/posts/uber/uber.jpg'
 ---
 
-## In 2018, The Chicago Transit Authority (CTA) reported that bus ridership in the city of Chicago decreased by 2.8% and rail ridership decreased by 1.9% compared to the previous year. 
+In 2018, The Chicago Transit Authority (CTA) reported that bus ridership in the city of Chicago decreased by 2.8% and rail ridership decreased by 1.9% compared to the previous year. 
 
-## We seek to understand whether ridesharing services serve as a complement or a substitute to public transportation in Chicago and what environmental and social factors impact the effects using data from ridesharing rides in Chicago over the course of eight months and daily weather data. 
-
- <br/><br/>
+ We seek to understand whether ridesharing services serve as a complement or a substitute to public transportation in Chicago and what environmental and social factors impact the effects using data from ridesharing rides in Chicago over the course of eight months and daily weather data. 
 
 
 <h3> Findings </h3>

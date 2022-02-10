@@ -5,9 +5,7 @@ subtitle: "An inspection of what factors will affect college completion rate "
 background: '/img/posts/college/uw.jpg'
 ---
 
-## College completion rate is tied to multiple factors and it is related more to my own since I am in my last academic year for master degree studying. I will inspect gender, family income, race, tuition fee and SAT,ACT score as if they would affect college completion rate.
-
-<br><br>
+ College completion rate is tied to multiple factors and it is related more to my own since I am in my last academic year for master degree studying. I will inspect gender, family income, race, tuition fee and SAT,ACT score as if they would affect college completion rate.
 
 <h3> Findings </h3>
 
