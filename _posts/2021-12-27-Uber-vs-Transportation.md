@@ -2,7 +2,7 @@
 layout: post
 title: "Can ridesharing services completely replace public transportation?"
 subtitle: "Is Uber a complement or substitute service to public ‘L’ ridership in Chicago?"
-background: ''
+background: '/img/posts/uber/uber.jpg'
 ---
 
 ## In 2018, The Chicago Transit Authority (CTA) reported that bus ridership in the city of Chicago decreased by 2.8% and rail ridership decreased by 1.9% compared to the previous year. 
@@ -12,19 +12,41 @@ background: ''
  <br/><br/>
 
 
- #### **Findings**
+**Findings**
 
 The model created using the data shows 
 - A **positive significant** relationship between the number of daily ridesharing rides picked up near rail stations with the amount of daily riders on the CTA rail. 
 - Ridesharing services can be serving as a **complement** to public ‘L’ ridership in Chicago. 
 - On average, there is a **252877** passenger-increase in L rail ridership during weekdays and there is a **82288** passenger-decrease in L rail ridership during holidays and weekends.
 
- ##### **People**
+ ![Train](/img/posts/uber/CTA L Train.png "Train")
+
+ **People**
 
  > - Catherine Peterson 
  > - Charles Mrkvicka 
- > - Nick Kang
  > - Daniel Nesslein
+ > - Nick Kang
 
- ##### **Data**
+ **Data**
+
+![Data](/img/posts/uber/data.png "data")
+
+We used ridesharing and transit data from the Chicago Data Portal that was recorded from November 2018 through June 2019 and included details of pickups, dropoffs, and trip lengths. In addition, we analyzed a data set of the daily ridership of the Chicago L rail. 
+
+![comparison](/img/posts/uber/ridersharing_vs_LOL _rail.png "comparison")
+
+From the graph, during late December, we see a large decrease in ridesharing and L rail rides. If ridesharing and the L rail are **complements**, we assume that most ridesharing pickups near an L rail station are for people getting on or off the L rail. For consumer privacy reasons, our dataset of ridesharing trips classified pickup and dropoff locations into a series of **census tract points**. We created a **buffer of 0.005 degrees** (approximately **500 meters**) around each L rail stop in Chicago and selected the census tract points that intersected with the buffer to distinguish which rides were picked up or dropped off near an L stop
+
+![zone](/img/posts/uber/pickup_dropoff.png "zone")
+
+These trips are of interest to our model because if ridesharing serves as a complement to public transportation, **people will get picked up near an L stop to be taken to their final destination. Additional pickups within the buffer should thus increase public transportation ridership**.
+
+A regression model By analyzing the effect of ridesharing pickups near L stations, we see that these ridesharing rides have a positive effect on daily L ridership, explaining that ridesharing services serve as a complement to the L rail. 
+
+Other social and economic variables not included in our model could further explain the effects in the future such as population, unemployment rate, and costs of owning a car including gas, parking, and insurance. Our model was further limited due to the dataset using census tract points rather than exact coordinates. Using exact coordinates would allow the model to use a more accurate count of rides located near L stops. We also acknowledge that our model includes only 242 days of a single year which may explain why we were able to create a model with such a high adjusted R-squared. 
+
+
+
+
 

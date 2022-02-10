@@ -2,7 +2,7 @@
 layout: post
 title: "The recovery of U.S Restaurant industry in 2021"
 subtitle: "How well the restaurant industry is recovering in 2021 with the impact of COVID-19?"
-background: ''
+background: '/img/posts/restaurant_covid/res.jpg'
 ---
 ## U.S Restaurant industry of all could be affected by the pandemic the most due to the nature of the industry. It would be interesting to see how well the restaurant industry is recovering from Covid-19, more importantly, what is helping its recovery?
 
@@ -35,13 +35,13 @@ From the figure, the daily test positive cases does not show a dramatic increase
 --- | ---
 ![Nebraska](/img/posts/restaurant_covid/fig_4.png "Nebraska") | ![Rhode Island](/img/posts/restaurant_covid/fig_5.png "Rhode Island")
 
-Considering the difference of population in different states, I have picked two states from **_top 5 most populated states_** that have corresponding restaurant open data and those two are **_California_** and **_Texas_**. I have also picked two states from the bottom 5 least population states that have corresponding restaurant open data and those two are **_Nebraska_** and **_Rhode Island_**. All four states’ restaurants open trend comparing to their daily positive test cases. From bar plots of all four graphs, they indicate that population rank is almost the **_same_** as the test positive cases rank. It could mean that more people are in a state, more infected case there is. It could also mean that none of them impose any effective methods to stop the pandemic. 
+Considering the difference of population in different states, I have picked two states from **_top 5 most populated states_** that have corresponding restaurant open data and those two are **_California_** and **_Texas_**. I have also picked two states from the **_bottom 5 least populated states_** that have corresponding restaurant open data and those two are **_Nebraska_** and **_Rhode Island_**. All four states’ restaurants open trend comparing to their daily positive test cases. From bar plots of all four graphs, they indicate that population rank is almost the **_same_** as the test positive cases rank. It could mean that more people are in a state, more infected case there is. It could also mean that none of them impose any effective methods to stop the pandemic. 
 
 All four states’ industries suffer a big drop at the start of the pandemic even though positive test cases does not show a drastic increase right away. And during the **_winter in 2020_**, the restaurant industry of all four states are at another bottom. However, having less population seems to have a faster recovery speed for the industry especially during the year of 2020. In 2021, however, four different states show different patterns due to various reasons.  Except California, the other three states show that the restaurant industry is recovering to almost the same level as in 2019, which can be considered to be **_back to normal_**. By having the most population of all  states in the country, **_California_** restaurant industry is still slowly climbing back to the normal stage.
 
 ![The mask order](/img/posts/restaurant_covid/fig_6.png "The mask order")
 
-Another potential reason could **_policy_** imposed by different states. Figure shows **_the difference of vaccination rate and mask order in four different states_**. California, having the most population and the most vaccinated population, is still the slowest for the recovery process; it is also the only state that imposes Mask Order throughout the whole time. It is clear that the vaccination rate in all four states has over 50% and it provides a **_huge boost_** for the restaurant industry. On the other hand, the mask order does not seem to affect the industry recovery at all, rather it shows the state of the pandemic. More importantly, the difference between California and Texas shows that there are some other reasons that delay the restaurant recovery. 
+Another potential reason could be **_policy_** imposed by different states. Figure shows **_the difference of vaccination rate and mask order in four different states_**. California, having the most population and the most vaccinated population, is still the slowest for the recovery process; it is also the only state that imposes Mask Order throughout the whole time. It is clear that the vaccination rate in all four states has over 50% and it provides a **_huge boost_** for the restaurant industry. On the other hand, the mask order does not seem to affect the industry recovery at all, rather it shows the state of the pandemic. More importantly, the difference between California and Texas shows that there are some other reasons that delay the restaurant recovery. 
 
  <br/><br/>
 
@@ -51,3 +51,4 @@ Another potential reason could **_policy_** imposed by different states. Figure 
 > - seaborn
 > 
 > Python code 
+
