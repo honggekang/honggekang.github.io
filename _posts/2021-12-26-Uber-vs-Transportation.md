@@ -12,7 +12,7 @@ background: '/img/posts/uber/uber.jpg'
  <br/><br/>
 
 
-**Findings**
+<h3> **Findings** </h3>
 
 The model created using the data shows 
 - A **positive significant** relationship between the number of daily ridesharing rides picked up near rail stations with the amount of daily riders on the CTA rail. 
@@ -25,14 +25,14 @@ More imporantly,
 
  ![Train](/img/posts/uber/CTA L Train.png "Train")
 
- **People**
+ <h3> **People** </h3>
 
  > - Catherine Peterson 
  > - Charles Mrkvicka 
  > - Daniel Nesslein
  > - Nick Kang
 
- **Data**
+ <h3> **Data** </h3>
 
 ![Data](/img/posts/uber/data.png "data")
 
@@ -46,7 +46,7 @@ From the graph, during late December, we see a large decrease in ridesharing and
 
 These trips are of interest to our model because if ridesharing serves as a complement to public transportation, **people will get picked up near an L stop to be taken to their final destination. Additional pickups within the buffer should thus increase public transportation ridership**.
 
-We conrtsucted a regression model and the main variable is to test the hypothesis whether ridesharing service is a complemnet to public transportation. By analyzing the effect of ridesharing pickups near L stations, we see that these ridesharing rides have a positive effect on daily L ridership, explaining that ridesharing services serve as a complement to the L rail. 
+We conrtsucted a regression model and the main purpose is to test the hypothesis whether ridesharing service is a complemnet to public transportation. By analyzing the effect of ridesharing pickups near L stations, we see that these ridesharing rides have a positive effect on daily L ridership, explaining that ridesharing services serve as a complement to the L rail. 
 
 Other social and economic variables not included in our model could further explain the effects in the future such as population, unemployment rate, and costs of owning a car including gas, parking, and insurance. Our model was further limited due to the dataset using census tract points rather than exact coordinates. Using exact coordinates would allow the model to use a more accurate count of rides located near L stops. We also acknowledge that our model includes only 242 days of a single year which may explain why we were able to create a model with such a high adjusted R-squared. 
 
