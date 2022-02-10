@@ -27,13 +27,10 @@ able to
 
 From the figure, the daily test positive cases does not show a dramatic increase, it does indicate that it is the start of the pandemic season. Then at the end of 2020, the restaurant industry is taking another hit while the whole country is experiencing its worst impact. Throughout the whole 2020, the trend of daily positive test cases is **_increasing_** and the trend of restaurants reopen is **_decreasing_**. There is no doubt that the whole industry is **_heavily damaged_** by the virus since the daily open percentage is never even close to what it was in 2019 at any given day in 2020. However, the trend changes in 2021 with **_help of vaccinations_**. By comparing all three line charts, the pandemic has another peak in September but the recovery of the industry is more stable comparing to last year. It could be the reason that more than half of people are vaccinated and are confident that the virus can be under control over the time. 
 
-| 
---- | ---
-![California](/img/posts/restaurant_covid/fig_2.png "California") | ![Texas](/img/posts/restaurant_covid/fig_3.png "Texas")
-
-| 
---- | ---
-![Nebraska](/img/posts/restaurant_covid/fig_4.png "Nebraska") | ![Rhode Island](/img/posts/restaurant_covid/fig_5.png "Rhode Island")
+![California](/img/posts/restaurant_covid/fig_2.png "California")
+![Texas](/img/posts/restaurant_covid/fig_3.png "Texas")
+![Nebraska](/img/posts/restaurant_covid/fig_4.png "Nebraska")
+![Rhode Island](/img/posts/restaurant_covid/fig_5.png "Rhode Island")
 
 Considering the difference of population in different states, I have picked two states from **_top 5 most populated states_** that have corresponding restaurant open data and those two are **_California_** and **_Texas_**. I have also picked two states from the **_bottom 5 least populated states_** that have corresponding restaurant open data and those two are **_Nebraska_** and **_Rhode Island_**. All four states’ restaurants open trend comparing to their daily positive test cases. From bar plots of all four graphs, they indicate that population rank is almost the **_same_** as the test positive cases rank. It could mean that more people are in a state, more infected case there is. It could also mean that none of them impose any effective methods to stop the pandemic. 
 
@@ -50,5 +47,5 @@ Another potential reason could be **_policy_** imposed by different states. Figu
 > - matplotlib
 > - seaborn
 > 
-> Python code 
+> <a href="http://127.0.0.1:4000/2021/12/28/COVID-19_restaurant-recovery.html">Python code</a>
 

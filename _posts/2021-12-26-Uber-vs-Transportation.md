@@ -12,7 +12,7 @@ background: '/img/posts/uber/uber.jpg'
  <br/><br/>
 
 
-<h3> **Findings** </h3>
+<h3> Findings </h3>
 
 The model created using the data shows 
 - A **positive significant** relationship between the number of daily ridesharing rides picked up near rail stations with the amount of daily riders on the CTA rail. 
@@ -25,14 +25,14 @@ More imporantly,
 
  ![Train](/img/posts/uber/CTA L Train.png "Train")
 
- <h3> **People** </h3>
+ <h3> People </h3>
 
  > - Catherine Peterson 
  > - Charles Mrkvicka 
  > - Daniel Nesslein
  > - Nick Kang
 
- <h3> **Data** </h3>
+ <h3> Data </h3>
 
 ![Data](/img/posts/uber/data.png "data")
 
@@ -40,7 +40,7 @@ We used ridesharing and transit data from the Chicago Data Portal that was recor
 
 ![comparison](/img/posts/uber/ridersharing_vs_LOL _rail.png "comparison")
 
-From the graph, during late December, we see a large decrease in ridesharing and L rail rides. If ridesharing and the L rail are **complements**, we assume that most ridesharing pickups near an L rail station are for people getting on or off the L rail. For consumer privacy reasons, our dataset of ridesharing trips classified pickup and dropoff locations into a series of **census tract points**. We created a **buffer of 0.005 degrees** (approximately **500 meters**) around each L rail stop in Chicago and selected the census tract points that intersected with the buffer to distinguish which rides were picked up or dropped off near an L stop.
+From the graph, during late December, we see a large decrease in ridesharing and L rail rides. If ridesharing and the L rail are <strong class="uber">complements</strong>, we assume that most ridesharing pickups near an L rail station are for people getting on or off the L rail. For consumer privacy reasons, our dataset of ridesharing trips classified pickup and dropoff locations into a series of **census tract points**. We created a **buffer of 0.005 degrees** (approximately **500 meters**) around each L rail stop in Chicago and selected the census tract points that intersected with the buffer to distinguish which rides were picked up or dropped off near an L stop.
 
 ![zone](/img/posts/uber/pickup_dropoff.png "zone")
 
