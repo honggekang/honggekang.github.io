@@ -42,6 +42,16 @@ The p value for average SAT score is 0.751, which is larger than 0.05 and it mig
 
 However, all the other regressors are <strong class="covid">significant</strong>. The coefficient for tuition is positive and it might be the reason that a higher tuition fee is due to the quality of the college; it might select the students who are already more suitable to embrace the more intense competition. And the dummy variables show that alien cohort, comparing to white cohort, aliens will have a higher completion rate and black cohort as well as unknow cohort will have a lower completion rate comparing to the white cohort.
 
+<br/><br/>
+
+> Python pacakges that are used:
+> - pandas
+> - matplotlib
+> - seaborn
+> 
+> <a href="https://github.com/honggekang/README.md/blob/master/Project.ipynb">Python code</a>
+
+
 
 
 
