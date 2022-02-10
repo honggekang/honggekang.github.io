@@ -17,8 +17,8 @@ For example, of all restaurants that are recorded on OpenTable, the number of re
 
 By comparing time series data of restaurant open for seated dinner, COVID-19 positive test cases and vaccination, I am
 able to 
-- Identify <strong class="covid">crucial moments</strong>when the recovery happens in different states.
-- Discover that the U.S restaurant industry is <strong class="covid">slowly recovering</strong> from the pandemic, but the <strong class="covid">impact of it is severe</strong>. 
+- Identify <strong class="covid">crucial moments</strong> when the recovery happens in different states.
+- Discover that the U.S restaurant industry is <strong class="covid">slowly recovering </strong> from the pandemic, but the <strong class="covid"> impact of it is severe</strong>. 
 - <strong class="covid">Vaccinations</strong> greatly boost the confidence for owners to reopen but the policy of mask order during the pandemic does not seem to affect the industry significantly.
 
 ![U.S restaurant industy in recovery overivew](/img/posts/restaurant_covid/fig_1.png "U.S restaurant overview")
