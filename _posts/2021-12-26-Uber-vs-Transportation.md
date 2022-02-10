@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Can ridesharing services completely replace public transportation?"
+title: "Can Ridesharing Services Completely Replace Public Transportation?"
 subtitle: "Is Uber a complement or substitute service to public ‘L’ ridership in Chicago?"
 background: '/img/posts/uber/uber.jpg'
 ---
