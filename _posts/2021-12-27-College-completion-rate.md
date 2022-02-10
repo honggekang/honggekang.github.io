@@ -30,8 +30,17 @@ And the test score reflects on the academic ability that a student is capable of
 
 ![Race](/img/posts/college/his2.jpg "Race")
 
-In order to show the comparison more clear between four cohorts. State of Massachusetts and state of Rhode Islands are chosen to be on graph 6. Since these two states have relatively the highest completion rate in all groups comparing to other states. And it shows that <strong class="covid">alien</strong> and<strong class="covid"> white</strong> cohorts have the higher completion rate.
+In order to show the comparison more clear between four cohorts. State of Massachusetts and state of Rhode Islands are chosen to be on the graph. Since these two states have relatively the highest completion rate in all groups comparing to other states. And it shows that <strong class="covid">alien</strong> and<strong class="covid"> white</strong> cohorts have the higher completion rate.
 
+![Tuition](/img/posts/college/hist2.jpg "Tuition")
+
+The graph shows a high linear correlation between the two. But surprisingly, it shows a positive correlation which can be interpreted as the higher the tuition fee is, the higher college completion rate the state will have. It would be strange because if the tuition fee is high, less people will be able to afford it, thus less completion rate due to this reason. Some further analysis is needed from the linear regression.
+
+Last but not least, the regression model is tested and the R square of the model is 69.3 percent and it means that these regressors could represent almost <strong class="covid">70% </strong>of the dependent variable. 
+
+The p value for average SAT score is 0.751, which is larger than 0.05 and it might not be a suitable independent variable for completion rate. It might due to the reason that SAT score illustrates the ability prior to college and individual could change a lot during the 4 years of development. Therefore, the SAT score is not really helpful for the model. 
+
+However, all the other regressors are <strong class="covid">significant</strong>. The coefficient for tuition is positive and it might be the reason that a higher tuition fee is due to the quality of the college; it might select the students who are already more suitable to embrace the more intense competition. And the dummy variables show that alien cohort, comparing to white cohort, aliens will have a higher completion rate and black cohort as well as unknow cohort will have a lower completion rate comparing to the white cohort.
 
 
 
