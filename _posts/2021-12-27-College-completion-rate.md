@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How long does it take to finish college?"
-subtitle: "An inspection of what factors will affect college completion rate "
+title: "How Long Does It Take To Finish College?"
+subtitle: "An inspection on what factors will affect college completion rate "
 background: '/img/posts/college/uw.jpg'
 ---
 
