@@ -1,6 +1,6 @@
 ---
 layout: page
 title: About Me
-description: This is what I do.
+description: ""
 background: '/img/about.png'
 ---
