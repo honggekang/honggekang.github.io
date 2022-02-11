@@ -52,7 +52,7 @@ However, all the other regressors are <strong class="covid">significant</strong>
 > - matplotlib
 > - seaborn
 > 
-> <a href="https://github.com/honggekang/README.md/blob/master/Project.ipynb">Python code</a>
+> <a href="/pdf/store.pdf" target="_blank">Python code</a>
 
 
 
