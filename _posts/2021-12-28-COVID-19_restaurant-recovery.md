@@ -47,5 +47,6 @@ Another potential reason could be <strong class="policy">policy</strong> imposed
 > - matplotlib
 > - seaborn
 > 
-> <a href="http://127.0.0.1:4000/2021/12/28/COVID-19_restaurant-recovery.html">Python code</a>
+> <a href="/pdf/project_python_code.pdf" target="_blank">Read more</a>
+
 

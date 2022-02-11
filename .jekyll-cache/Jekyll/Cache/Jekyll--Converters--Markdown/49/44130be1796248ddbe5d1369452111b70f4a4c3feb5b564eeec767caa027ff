@@ -1,0 +1,52 @@
+I"h<p>We aimed to simulate a counterfactual merger using a selected previous merger of the past. The end goal of this simulation is to predict the potential price effect of our theoretical merger. In order to create an economically sound model we opted to use the US Airways and American Airlines.</p>
+
+<h3> Findings </h3>
+
+<p>American Airlines and US Airways, sharing similar sizes, are chosen with some crucial characteristics like size of the airlines being merged, markets serviced by the airlines, and relative size of the resulting merged airline in order to understand how the merging process progresses. The prediction result shows that</p>
+
+<ul>
+  <li>
+    <p>Average fares would<strong class="covid"> rise</strong>  after the merger between American and United.</p>
+  </li>
+  <li>
+    <p>Several variables do not have significant effects on prices.</p>
+  </li>
+  <li>
+    <p>A linear regression model, a polyvariate model with all interaction terms and all squared terms included, a lasso model with cross validated optimized lambda value, an XGBoost model, and a random forest model.</p>
+  </li>
+  <li>
+    <p>The <strong class="covid">Extreme Gradient Boosting model</strong> performs the best with the lowest MSE</p>
+  </li>
+</ul>
+
+<h3>People</h3>
+
+<blockquote>
+  <ul>
+    <li>Connor Fuglestad</li>
+    <li>Yimin Guo</li>
+    <li>Nicolas Herrera</li>
+    <li>Ruiao Jiao</li>
+    <li>Nick Kang</li>
+  </ul>
+</blockquote>
+
+<h3>Data</h3>
+
+<p>The Bureau of Transportation Statistics (BTS) keeps a directory of statistics on aviation travel. Specifically, their Airline Origin and Destination Survey (DB1B) is a 10% sample of airline tickets from reporting carriers. For the purposes of this analysis, the DB1BMarket data set was downloaded.</p>
+
+<p><img src="/img/posts/plane/Picture1.png" alt="data" title="datatable" /></p>
+
+<p>A table of summary statistics for relevant variables in the data is included in the table above. Of note is the average of the hub flag, which indicates that the vast majority of the markets that American Airlines and US Airways operate out of are hubs.</p>
+
+<p><img src="/img/posts/plane/mse.png" alt="MSE" title="MSE" /></p>
+
+<p>The models attempted were a linear regression model, a polyvariate model with all interaction terms and all squared terms included, a lasso model with cross validated optimized lambda value, an XGBoost model, and a random forest model. Evaluating their performance showed that the first three models performed rather poorly, while the latter two performed quite well and quite similarly. The descaled MSE’s are summarized in the table above.</p>
+
+<p><strong class="covid">The XGBoost model performs the best</strong>. These are descaled MSEs, meaning they are in terms of percent off of actual prices. That means the XGBoost model is performing very well, with an average error of 1.1%.</p>
+
+<p>&lt;br&gt;&lt;br&gt;</p>
+
+<p><a href="">R code</a></p>
+
+:ET
