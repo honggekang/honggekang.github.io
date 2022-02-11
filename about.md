@@ -9,6 +9,6 @@ As an international student from China, I started my journey to study at the Uni
 
 Through years of learning how to construct regression models and make forecastings, I gradually develope my interest towards data analytics. Since then, I have been focusing on building up my skill sets with Data Programming, Data Analysis, Economic Forecasting and Machine learning. These skill sets help me make the dive into the data world and make my attempt to analyze different interesting topics. I enjoy the process of preparing data, manipulating data and creating plots in order to discover trends and patterns or pose and answer questions with data-driven insights. 
 
-I hope that I could become more mature as a Data Analyst with the help of developing this webiste and I am able to polish my skills along the way. 
+I hope that I could become more mature as a Data Analyst with the help of developing this website and I am able to polish my skills along the way. 
 
 *Nick Kang* 
