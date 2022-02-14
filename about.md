@@ -5,7 +5,7 @@ description: ""
 background: '/img/about.png'
 ---
 
-> - Contact Information 
+>   Contact Information 
 > - Email : hkang72@wisc.edu
 > - Phone: (732)-7626209
 
