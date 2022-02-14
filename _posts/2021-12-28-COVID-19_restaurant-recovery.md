@@ -41,8 +41,72 @@ From the figure, the daily test positive cases does not show a dramatic increase
   </button>
 </p>
 <div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  <div class="card card-body" markdown="1">
+    ```
+    # California
+    fig = plt.figure(figsize=(30,18))
+
+    spec = gridspec.GridSpec(ncols=2, nrows=2, width_ratios=[7,1], wspace=0.001,hspace=0.05)
+    ax0 = fig.add_subplot(spec[0])
+    ax1 = fig.add_subplot(spec[1])
+    ax2 = fig.add_subplot(spec[2])
+    ax3 = fig.add_subplot(spec[3])
+
+    y = p_t5['population']/1000000
+    y1 = [covid_tc.loc['2021/10/28']['California']/1000000,covid_tc.loc['2021/10/28']['Texas']/1000000
+    ,covid_tc.loc['2021/10/28']['Florida']/1000000, covid_tc.loc['2021/10/28']['Illinois']/1000000
+      ,covid_tc.loc['2021/10/28']['Georgia']/1000000]
+
+    for state in top_5_tc:
+      s = top_5_tc[0]
+      ax0.plot(res.index, res[state],color='dimgrey', linewidth=1)
+      ax0.plot(res.index, res[s],color='crimson', linewidth=3.5)
+      ax0.axhline(y=0, color='crimson', alpha = 0.5, linewidth=5, linestyle = ':') 
+      ax0.text('2020/5/5', 100 , 'California',
+           fontsize=25,color= 'crimson',  weight='bold')
+      ax0.text('2020/5/5', 85 , 'Daily Restaurants open for reservations',
+           fontsize=15,color= 'dimgrey',  weight='bold')
+      ax0.text('2020/5/5', 75 , 'percentage comparing to 2019',
+           fontsize=15,color= 'dimgrey',  weight='bold')
+      ax0.text('2020/1/15', 5 , '0%', fontsize=20 ,color= 'dimgrey', weight='bold')
+      ax0.text('2021/9/1', 100 , 'Population:', fontsize=20 ,color= 'dimgrey', weight='bold')
+      ax0.text('2021/9/1', 90 , '37,254,519', fontsize=20 ,color= 'crimson', weight='bold')
+      ax1.barh(p_t5.index,p_t5['population']/1000000, color='darkgrey')
+      ax1.barh(s,p_t5.loc[s][0]/1000000, color='crimson')
+      ax2.plot(covid_nc.index, covid_nc[state],color='dimgrey' , linewidth=1)
+      ax2.plot(covid_nc.index, covid_nc[s],color='crimson' , linewidth=3.5) 
+      ax2.text('2020/5/5', 60000 , 'Daily Covid Confirmed Positive Test',
+           fontsize=18,color= 'dimgrey',  weight='bold')
+      ax2.text('2021/6/10', 60000 , 'Total Confirmed Positive Test:',
+         fontsize=20,color= 'dimgrey',  weight='bold')
+      ax2.text('2021/8/15', 57000 , '4,885,289',
+           fontsize=20,color= 'crimson',  weight='bold')
+      ax3.barh(state,covid_tc[state]/1000000, color='darkgrey')
+      ax3.barh(s,covid_tc[s]/1000000, color='crimson')
+    
+    for a in [ax0, ax1, ax2, ax3]:
+    
+      a.spines['top'].set_visible(False)
+      a.spines['right'].set_visible(False)
+      a.spines['bottom'].set_visible(False)
+      a.spines['left'].set_visible(False)
+      a.set_yticks([])
+      a.xaxis.set_major_locator(mdates.MonthLocator())
+    
+    for i, v in enumerate(y):
+      ax1.text(v , i, r_t5[i], color='white', fontweight='bold', fontsize=13, ha='right', va='center')
+
+    for i, v in enumerate(y1):
+      ax3.text(v , i, top_5_tc[i] , color='white', fontweight='bold', fontsize=13, ha='right', va='center')
+    
+    ax0.axvspan(dt.date(2020, 3, 1), dt.date(2020, 5, 1), facecolor='crimson', alpha=0.2)
+    ax0.axvspan(dt.date(2020, 11, 1), dt.date(2021, 3, 1), facecolor='crimson', alpha=0.2)
+    ax2.axvspan(dt.date(2020, 3, 1), dt.date(2020, 5, 1), facecolor='crimson', alpha=0.2)   
+    ax2.axvspan(dt.date(2020, 11, 1), dt.date(2021, 3, 1), facecolor='crimson', alpha=0.2)
+
+    plt.savefig('fig_2.png')
+    plt.show()
+    ```
   </div>
 </div>
 </div>
