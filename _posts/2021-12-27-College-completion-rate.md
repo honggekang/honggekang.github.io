@@ -4,6 +4,7 @@ title: "How Long Does It Take To Finish College?"
 subtitle: "An inspection on what factors will affect college completion rate "
 background: '/img/posts/college/uw.jpg'
 ---
+<div class="col-lg-8 col-md-10 mx-auto" markdown="1">
 
  College completion rate is tied to multiple factors and it is related more to my personal life since I am in my last academic year for master degree studying. I will inspect **gender, family income, race, tuition fee and SAT,ACT score** as if they would affect college completion rate.
 
@@ -53,6 +54,7 @@ However, all the other regressors are <strong class="covid">significant</strong>
 > - seaborn
 > 
 > <a href="/pdf/store.pdf" target="_blank">Python code</a>
+</div>
 
 
 

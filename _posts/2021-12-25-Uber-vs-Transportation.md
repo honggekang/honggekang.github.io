@@ -4,6 +4,7 @@ title: "Can Ridesharing Services Completely Replace Public Transportation?"
 subtitle: "Is Uber a complement or substitute service to public ‘L’ ridership in Chicago?"
 background: '/img/posts/uber/uber.jpg'
 ---
+<div class="col-lg-8 col-md-10 mx-auto" markdown="1">
 
 In 2018, The Chicago Transit Authority (CTA) reported that bus ridership in the city of Chicago <strong class="uber">decreased by 2.8%</strong> and rail ridership <strong class="uber">decreased by 1.9% </strong>compared to the previous year. 
 
@@ -52,7 +53,7 @@ We conrtsucted a regression model and the main purpose is to test the hypothesis
 
 Other social and economic variables not included in our model could further explain the effects in the future such as population, unemployment rate, and costs of owning a car including gas, parking, and insurance. Our model was further limited due to the dataset using census tract points rather than exact coordinates. Using exact coordinates would allow the model to use a more accurate count of rides located near L stops. We also acknowledge that our model includes only 242 days of a single year which may explain why we were able to create a model with such a high adjusted R-squared. 
 
-
+</div>
 
 
 
