@@ -50,11 +50,20 @@
 }
 
 img {
-    width: 120%;
+    width: 150%;
     margin: 0 -25%;
 }
 
-strong.covid{
+.smallimg {
+    > p {
+        >img {
+            width: 120%;
+        }
+    }
+}
+
+
+strong.covid {
     color: rgba(247, 20, 20, 0.904);
 }
 

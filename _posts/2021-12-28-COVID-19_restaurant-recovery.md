@@ -28,10 +28,10 @@ able to
 
 From the figure, the daily test positive cases does not show a dramatic increase, it does indicate that it is the start of the pandemic season. Then at the end of 2020, the restaurant industry is taking another hit while the whole country is experiencing its worst impact. Throughout the whole 2020, the trend of daily positive test cases is <strong class="covid">increasing</strong> and the trend of restaurants reopen is <strong class="uber">decreasing</strong>. There is no doubt that the whole industry is <strong class="covid">heavily damaged</strong> by the virus since the daily open percentage is never even close to what it was in 2019 at any given day in 2020. However, the trend changes in 2021 with <strong class="covid">help of vaccinations</strong>. By comparing all three line charts, the pandemic has another peak in September but the recovery of the industry is more stable comparing to last year. It could be the reason that more than half of people are vaccinated and are confident that the virus can be under control over the time. 
 </div>
-<div class="col-md-6" markdown="1">
+<div class="col-md-6 smallimg" markdown="1">
 ![California](/img/posts/restaurant_covid/fig_2.png "California")
 </div>
-<div class="col-md-6" markdown="1">
+<div class="col-md-6 smallimg" markdown="1">
 ![Texas](/img/posts/restaurant_covid/fig_3.png "Texas")
 </div>
 <div class="col-lg-8 col-md-10 mx-auto">
@@ -110,10 +110,10 @@ From the figure, the daily test positive cases does not show a dramatic increase
   </div>
 </div>
 </div>
-<div class="col-md-6" markdown="1">
+<div class="col-md-6 smallimg" markdown="1">
 ![Nebraska](/img/posts/restaurant_covid/fig_4.png "Nebraska")
 </div>
-<div class="col-md-6" markdown="1">
+<div class="col-md-6 smallimg" markdown="1">
 ![Rhode Island](/img/posts/restaurant_covid/fig_5.png "Rhode Island")
 </div>
 
