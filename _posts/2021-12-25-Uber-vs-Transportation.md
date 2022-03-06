@@ -3,7 +3,7 @@ layout: post
 title: "Can Ridesharing Services Completely Replace Public Transportation?"
 subtitle: "Is Uber a complement or substitute service to public ‘L’ ridership in Chicago?"
 background: '/img/posts/uber/uber.jpg'
-thumbnial: '/img/posts/uber/CTA L Train.png'
+thumbnail: '/img/posts/uber/pickup_dropoff.png'
 ---
 <div class="col-lg-8 col-md-10 mx-auto" markdown="1">
 
