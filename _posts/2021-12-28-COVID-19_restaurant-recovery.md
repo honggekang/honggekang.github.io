@@ -3,6 +3,7 @@ layout: post
 title: "The Recovery of U.S Restaurant Industry In 2021"
 subtitle: "How well the restaurant industry is recovering in 2021 with the impact of COVID-19?"
 background: '/img/posts/restaurant_covid/res.jpg'
+thumbnail: '/img/posts/restaurant_covid/fig_1.png'
 ---
 <div class="col-lg-8 col-md-10 mx-auto" markdown="1">
 U.S Restaurant industry of all could be affected by the pandemic the most due to the nature of the industry. It would be interesting to see how well the restaurant industry is recovering from Covid-19, more importantly, what is helping its recovery?
